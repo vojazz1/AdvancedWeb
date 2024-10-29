@@ -1,0 +1,71 @@
+:root {
+    /* Zaktualizowana paleta z Coolors */
+    --background: #232635; /* Jasny błękit jako główne tło */
+    --foreground: #F7F7FF; /* Ciemny burgund dla głównego tekstu */
+
+    --card: #577399; /* Jasny błękitno-zielony dla kart */
+    --card-foreground: #232635; /* Ciemny burgund tekst na kartach */
+
+    --popover: #BDD5EA; /* Szaro-zielony dla popover */
+    --popover-foreground: #232635; /* Ciemny burgund tekst na popoverach */
+
+    --primary: #b8c4ff; /* Brązowy dla głównych elementów */
+    --primary-foreground: #232635; /* Jasny błękit tekst na brązowym tle */
+
+    --secondary: #FE5F55; /* Jasny błękitno-zielony dla elementów drugorzędnych */
+    --secondary-foreground: #232635; /* Ciemny burgund dla tekstu drugorzędnego */
+
+    --muted: #BDD5EA; /* Szaro-zielony dla przytłumionych elementów */
+    --muted-foreground: #495867; /* Ciemny burgund dla przytłumionego tekstu */
+
+    --accent: #F7F7FF; /* Jasny błękitno-zielony dla wyróżniających się elementów */
+    --accent-foreground: #FE5F55; /* Ciemny burgund dla tekstu na akcencie */
+
+    --destructive: #FE5F55; /* Ciemny burgund dla destrukcyjnych akcji */
+    --destructive-foreground: #b8c4ff; /* Jasny błękit dla destrukcyjnego tekstu */
+
+    --border: #775b59; /* Brązowy dla obramowań */
+    --input: #232635; /* Jasny błękitno-zielony dla pól wejściowych */
+    --ring: #775b59; /* Brązowy dla pierścienia focus */
+}
+
+/* Zastosowanie kolorów do różnych elementów */
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.card {
+    background-color: var(--card);
+    color: var(--card-foreground);
+}
+
+.popover {
+    background-color: var(--popover);
+    color: var(--popover-foreground);
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+}
+
+.muted {
+    background-color: var(--muted);
+    color: var(--muted-foreground);
+}
+
+.accent {
+    background-color: var(--accent);
+    color: var(--accent-foreground);
+}
+
+.destructive {
+    background-color: var(--destructive);
+    color: var(--destructive-foreground);
+}
