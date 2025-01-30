@@ -1,5 +1,5 @@
 # Final evaluation of the repository
-- CONTENT  5
+- CONTENT  3
 - MARKUP 7
 - DESIGN 7
 
